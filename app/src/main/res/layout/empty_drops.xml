@@ -10,21 +10,27 @@
         android:layout_height="250dp"
         android:src="@drawable/ic_directions_run_black_48dp"
         android:background="#F66"
+        android:layout_margin="64dp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="54dp"
         android:text="@string/add_a_drop"
         android:textSize="@dimen/add_a_drop"
         android:textAllCaps="false"
-        android:layout_below="@+id/iv_logo"
-        android:layout_centerHorizontal="true"/>
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="8dp"
+        android:layout_margin="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"/>
 
 
 </RelativeLayout>
