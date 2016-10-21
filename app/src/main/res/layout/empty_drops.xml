@@ -28,6 +28,7 @@
         android:paddingBottom="8dp"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
+        android:background="@drawable/bg_btn_add_it"
         android:layout_marginTop="22dp"
         android:textColor="@color/btn_add_color"
         android:layout_below="@+id/iv_logo"
