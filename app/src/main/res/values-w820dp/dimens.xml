@@ -5,4 +5,5 @@
     <dimen name="activity_horizontal_margin">64dp</dimen>
     <dimen name="add_a_drop">28sp</dimen>
     <dimen name="btn_add_it_corner_radius_purple">2dp</dimen>
+    <dimen name="btn_add_it_corner_radius_green">2dp</dimen>
 </resources>
