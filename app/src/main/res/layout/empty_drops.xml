@@ -7,11 +7,16 @@
     <ImagaView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/imagaView"
         android:background="#F66"/>
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imagaView"
+        android:layout_marginTop="38dp"/>
 
 
 </RelativeLayout>
