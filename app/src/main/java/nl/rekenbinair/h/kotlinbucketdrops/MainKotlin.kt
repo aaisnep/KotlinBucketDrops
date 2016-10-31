@@ -22,7 +22,7 @@ class MainKotlin: AppCompatActivity() {
 
     private fun initBackgroundImage( ) {
        val  mBackground = findViewById(R.id.iv_background)as ImageView
-        Glide.with(this).load(R.drawable.background)
+        Glide.with(this).load(R.drawable.ic_directions_run_black_48dp)
 
 
     }
